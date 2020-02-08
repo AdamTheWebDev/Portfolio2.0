@@ -7,9 +7,9 @@ class Education extends Component {
 render(){
     return(
 
-        <div>
+        <div className="condiv">
 
-            <h1>My Education and Certifications</h1>
+            <h1 className="subtopic">My Education and Certifications</h1>
             <Widecard title="Bachelors of Science - Business Management" where="Farmingdale State University"></Widecard>
 
             <Widecard title="Microsoft Certified: Azure Developer Associate" where="Microsoft"></Widecard>

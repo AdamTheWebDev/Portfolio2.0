@@ -7,7 +7,7 @@ class Widecard extends Component {
             <div>
                 <div>
 
-                    <h3>this.props.title</h3>
+                    <h3>{this.props.title}</h3>
                     <h4 class="secondtext">{this.props.where}</h4>
 
                 </div>

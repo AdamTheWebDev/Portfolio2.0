@@ -6,16 +6,16 @@ class Navbar extends Component {
     constructor(props){
         super(props);
         this.state={
-            'NavIemActive':''
+            'NavItemActive':''
         }
     }
-        activeitem= (x) => 
+        activeitem=(x) => 
         {
-            if (this.state.NavIemActive.length>0){
-                document.getElementById(this.state.NavIemActive).classList.remove('active');
+            if (this.state.NavItemActive.length>0){
+                document.getElementById(this.state.NavItemActive).classList.remove('active');
             }
-            this.setState({'NavItemId':x}, ()=>{
-                document.getElementById(this.state.NavIemActive).classList.add('active');
+            this.setState({'NavItemActive':x}, ()=>{
+                document.getElementById(this.state.NavItemActive).classList.add('active');
             });
         };
     
