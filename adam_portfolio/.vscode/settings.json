@@ -1,0 +1,8 @@
+{
+    "appService.zipIgnorePattern": [
+        "node_modules{,/**}",
+        ".vscode{,/**}"
+    ],
+    "appService.defaultWebAppToDeploy": "/subscriptions/896a1e23-ada7-494b-827f-0e6c2fdd9670/resourceGroups/adamJRobertsDotCom/providers/Microsoft.Web/sites/adamjroberts",
+    "appService.deploySubpath": ""
+}
