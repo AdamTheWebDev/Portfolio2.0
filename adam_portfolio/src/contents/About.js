@@ -1,9 +1,11 @@
 import React, { Component } from 'react';
+import Social from '../components/Social';
 
 class About extends Component {
     render() {
     return (
         <div className="condiv">
+            <div>
             <h1 className="subtopic">About Me</h1>
             <h4>Hey there,</h4>
             <h1>I'm Adam Roberts</h1>
@@ -16,6 +18,9 @@ class About extends Component {
             creating Interactive UI components for better UX  and share those desgin and codes
             to the world through Github, Codepen and Instagram.
             </p>
+            
+        </div>
+        <Social/>
         </div>
 )
 }
